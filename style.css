@@ -4,36 +4,39 @@ body{
     align-items: center;
     flex-direction: column;
     background: #3a040d;
-    height: 95vh;
+    height: 100%;
+    margin: 0;
 }
 #loginbox{
-    width: 350px;
-    height: 440px;
+    width: 80%;
+    max-width: 350px;
+    height: auto;
     background: white;
     border-radius: 15px;
+    padding: 20px;
 }
 .txt-input{
     padding: 8px 0px 3px 0px;
     outline: none;
     border: none;
     border-bottom: 1px solid #7c1728;
-    width: 80%;
+    width: 100%;
 }
 .txt-input:placeholder-shown{
     opacity: 70%;
 }
 p{
     margin-top:20px;
-    margin-left: 20px;
+    margin-left: 0;
 }
 button{
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 10px;
     border: 1px solid #3a040d;
     border-radius: 8px;
-    margin-left: 80px;
     margin-top: 20px;
-    width: 180px;
+    width: 100%;
+    max-width: 180px;
     background-color: #660f1e;
     color: white;
 }
