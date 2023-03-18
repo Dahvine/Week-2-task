@@ -26,9 +26,6 @@ p{
     margin-top:20px;
     margin-left: 20px;
 }
-#top{
-    margin-top: 40px;
-}
 button{
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 10px;
@@ -39,7 +36,6 @@ button{
     width: 180px;
     background-color: #660f1e;
     color: white;
-    position: absolute;
 }
 h1{
     color: aliceblue;

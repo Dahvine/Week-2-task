@@ -17,15 +17,15 @@
     <div id="loginbox">
 <p id="first">
     Name: <br>
-    <input class="txt-input" type="text" placeholder="Enter Username">
+    <input class="txt-input" type="text" placeholder="Enter Username" required>
 </p>
 <p>
     Email: <br>
-    <input class="txt-input" type="text" placeholder="Enter Email">
+    <input class="txt-input" type="text" placeholder="Enter Email" required>
 </p>
 <p>
     Phone Number: <br>
-    <input class="txt-input" type="text" placeholder="Phone number">
+    <input class="txt-input" type="text" placeholder="Phone number" required>
 </p>
 <p>
     <label for="gender">Gender:</label>
@@ -34,9 +34,14 @@
 </p>
 <p>
     Password: <br>
-    <input class="txt-input" type="password" placeholder="Enter password">
+    <input class="txt-input" type="password" placeholder="Enter password" required>
 </p>
-<button type="submit">Submit</button>
+<button type="submit" onclick="submit()">Submit</button>
     </div>
 </body>
+<script>
+    function submit(){
+        alert("Form has been successfully submitted");
+    }
+</script>
 </html>
